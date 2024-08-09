@@ -1,0 +1,1 @@
+Nessa pasta deve ser adicionado uma pasta com o nome de cada aluno. O nome deve ser composto pelo primeiro e segundo nome sem espaços e sem acentos. Exemplo: MarceloLima. Dentro da pasta, inicialmente, crie um arquivo vazio, ou contendo o seu nome, com o nome Identificação.txt. 
