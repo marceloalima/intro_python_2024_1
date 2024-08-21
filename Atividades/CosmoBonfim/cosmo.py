@@ -24,3 +24,8 @@ print(num1 > 3 and num2 < 8)
 print(num1 > 4 or num2 <= 8)
 
 print(not (num1 < 30 and num2 < 8))
+
+a = [1, 2, 3]
+b = a 
+print(a is b)
+
