@@ -26,13 +26,7 @@ m = (n1 + n2) / 2
 if m >= 7:
     print(f'Aprovado com média {m}')
 else:
-    if m < 4:
+    if m <= 4:
         print(f'Reprovado com média {m}')
     else:
         print('AF')
-        af = float(input('Digite a nota da AF: '))
-        m = (m + af) / 2
-        if m >= 4:
-            print(f'Aprovado com média {m}')
-        else:
-            print(f'Reprovado com média {m}')
