@@ -1,9 +1,8 @@
 # Q.01 => Algoritmo que retorne o valor absoluto de um número
 
-def valor_absoluto(numero):
-    return abs(numero)
-numero = -18
-print("O valor absoluto de", numero, "é", valor_absoluto(numero))
+numero1 = int(input("Digite o primeiro número: "))
+absoluto = abs(numero1)
+print("O valor absoluto de", numero1, "é", absoluto)
 
 # Q.02 => Faça um algorritmo que receba dois números e retorne o valor maior
 
