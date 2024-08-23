@@ -19,8 +19,8 @@ reprovado (M < 4) e
 AF (4 ≤ M < 7). 
 Se o aluno ficar de AF, entre com a nota da AF e mostre a média e o resultado final.'''
 
-n1 = 10
-n2 = 9
+n1 = int(input('Digite a nota 1: '))
+n2 = int(input('Digite a nota 2: '))
 m = (n1 + n2) / 2
 if m >= 7:
     print(f'Aprovado com média {m}')
