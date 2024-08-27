@@ -1,31 +1,16 @@
-numero = 5
+numero = int(input('Digite um numero : '))
 
-numero += 7
-print(numero) 
+if numero < 0:
+    numero = numero * -1
+    
+    print("O valor absoluto é : ", numero)
 
-var = 5 
-print(var == 5)
+numero1 = int(input('Digite um numero: '))
+numero2 = int(input('Digite outro numero: '))
 
-print(var != 7)
+if numero1 > numero2
+         print(numero1, "é maior que", numero2)
 
-print(var > 2)
-
-print(var >= 5)
-
-print(var < 7)
-
-print(not True)
-
-num1 = 7
-num2 = 4 
-
-print(num1 > 3 and num2 < 8)
-
-print(num1 > 4 or num2 <= 8)
-
-print(not (num1 < 30 and num2 < 8))
-
-a = [1, 2, 3]
-b = a 
-print(a is b)
-
+        elif numero2 > numero1
+         print(numero2, "é maior que", numero1)
+    
