@@ -1,0 +1,39 @@
+# Exemplo 1: range com início e fim
+print(list(range(1, 6)))  # [1, 2, 3, 4, 5]
+
+# Exemplo 2: range com início, fim e passo
+print(list(range(0, 10, 2)))  # [0, 2, 4, 6, 8]
+
+# Exemplo 3: range com apenas fim
+print(list(range(5)))  # [0, 1, 2, 3, 4]
+
+# Exemplo 4: range com início e passo negativo
+print(list(range(5, 0, -1)))  # [5, 4, 3, 2, 1]
+
+for x in range(0,101,2):
+    print(x)
+
+for x in range(1,100,2):
+    print(x)
+
+
+
+print(list(range(4)))
+print(list(range(1,5)))
+print(list(range(1,10,2)))
+print(list(range(10,1,-2)))
+
+#Faça um programa que peça 10 números inteiros, calcule e mostre a quantidade de pares e a quantidade de impares.#
+numeros = []
+for i in range(10):
+    num = int(input(f"Digite o {i+1} número: "))
+    numeros.append(num)
+    pares = 0
+    impares = 0
+    for num in numeros:
+        if num % 2 == 0:
+            pares += 1
+        else:
+            impares += 1
+            print(f"Quantidade de pares: {pares}, Quantidade de impares")10
+            
