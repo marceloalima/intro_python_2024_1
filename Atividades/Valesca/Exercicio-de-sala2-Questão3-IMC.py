@@ -2,13 +2,12 @@
 
 print ("Teste de IMC")
 
-nome = input ("Qual o seu nome?")
-peso = float (input ("Qual o seu peso em KG?"))
-altura = float (input ("Qual a sua altura em metros?"))
+nome = input ("Qual o seu nome? ")
+peso = float (input ("Qual o seu peso em KG? "))
+altura = float (input ("Qual a sua altura em metros? "))
 
 imc = (peso / altura ** 2)
-print (imc)
-and
+
 if imc < 18.5:
     print("Magreza")
 
