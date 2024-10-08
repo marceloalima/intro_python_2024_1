@@ -1,3 +1,4 @@
+# Queestão 1
 variavel_str = "variavel 1"
 variavel_int = 10
 variavel_float = 10.1
@@ -6,7 +7,7 @@ print (type(variavel_str))
 print (type(variavel_int))
 print (type(variavel_float))
 
-# 2 questão
+# 2 Questão : comentario de uma linha
 
 ''' Questão 3
 Crie um comentário
@@ -19,7 +20,7 @@ nome = input("Digite seu nome: ")
 # 5 Questão
 
 numero = input("Entre com um numero: ")
-print ("O numero digitado foi", numero)
+print ("O numero digitado foi: ", numero)
 
 print(type(numero)) # obrigatoriamente é str
 
