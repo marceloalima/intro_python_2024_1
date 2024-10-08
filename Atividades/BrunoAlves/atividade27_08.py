@@ -62,8 +62,8 @@ while execucao:
     print("2 - Cálculo do triangulo retangulo")
     print("3 - Cálculo do IMC")
     print("4 - Sair")
-    escolha = input("Escolha uma opção: ")
-    opcao = str(input('Quer continuar? [S/N] ')).upper().strip()
-    if opcao == 'N':
-        execucao = False
-        exit('Obrigado por usar nosso programa.')
+    escolha = int(input("Escolha uma opção: "))    
+    if escolha == 4:        
+        break
+
+print("Fim do programa")
